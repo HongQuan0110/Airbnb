@@ -6,15 +6,17 @@
 }
 
 .header-covid__noti {
-    color: var(--text-color-foggy);
-    font-size: 1.4rem;
+    color: #AAA;
+    font-size: 1.5rem;
     line-height: 5.8rem;
+    font-weight: 500;
 }
 
 /* Header */
 .header {
-    min-height: 46vw;
+    min-height: 41vw;
     background-color: var(--theme_palette-black);
+    padding: 0 104px;
 }
 
 .navbar {
@@ -33,6 +35,9 @@
 .navbar__list-menu {
     display: flex;
     list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .navbar__list-menu-link{
@@ -152,8 +157,8 @@
 .header__img {
     margin-top: 32px;
     background-image: url('../images/header-img.webp');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    --background-position: center;
     background-repeat: no-repeat;
     padding-top: 33%;
 }
@@ -161,7 +166,7 @@
 .header__title {
     color: var(--text-color-white);
     font-size: 3rem;
-    line-height: 90px;
+    line-height: 110px;
     text-align: center;
     font-weight: 300;
 }
