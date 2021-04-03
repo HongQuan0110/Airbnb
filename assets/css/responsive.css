@@ -5,7 +5,12 @@
 }
 
 .grid.wide {
-    max-width: 1200px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.grid.wide-1760 {
+    max-width: 1760px;
     margin: 0 auto;
 }
 
@@ -587,5 +592,12 @@
 
     .wide .l-o-11 {
         margin-left: 91.66667%;
+    }
+}
+
+/* PC extra extra large */
+@media (min-width: 1240px) and (max-width: 1800px) {
+    .wide {
+        width: 1200px;
     }
 }
