@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+.height-100 {
+    height: 100%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -597,7 +601,7 @@
 
 /* PC extra extra large */
 @media (min-width: 1240px) and (max-width: 1400px) {
-    .wide {
+    .grid.wide {
         width: 1200px;
     }
 }
