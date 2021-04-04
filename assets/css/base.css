@@ -26,6 +26,41 @@ html {
     --theme_palette-hover: #262626;
 }
 
+.display-none {
+    display: none !important;
+}
+
+.display-show {
+    display: block !important;
+}
+
+.icon-m {
+    height: 32px;
+    width: 32px;
+}
+
+.icon-l {
+    height: 48px;
+    width: 48px;
+}
+
+.text-white {
+    color: var(--text-color-white);
+}
+
+.text-white:hover {
+    background-color: var(--theme_palette-hover);
+}
+
+.text-hof {
+    color: var(--text-color-hof);
+
+}
+
+.text-hof:hover {
+    background-color: var(--theme_palette-faint);
+}
+
 .user-login {
     display: block;
     height: 42px;
@@ -35,19 +70,26 @@ html {
     border-radius: 50px;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     outline: none;
     border: none;
     text-decoration: none;
+    padding: 0 6px;
+    border: 1px solid var(--theme_palette-bebe);
+}
+
+.user-hover:hover {
+    box-shadow: 0 2px 4px var(--theme_palette-deco);
 }
 
 .user-login__menu {
     font-size: 1.6rem;
+    margin: auto;
 }
 
 .user-login__account {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .input-text {

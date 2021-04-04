@@ -23,25 +23,60 @@
     padding: 0 104px;
 }
 
+.header__wrap-nav {
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+    left: 0;
+    padding: 0 104px;
+    background-color: var(--theme_palette-white);
+    box-shadow: 0 1px 2px var(--theme_palette-deco);
+}
+
 .navbar {
+    height: 80px;
+    padding: 0 48px;
+    position: relative;    
+}
+
+.navbar__logo-white {
+    color: var(--theme_palette-white);
+    text-decoration: none;
+    display: block;
+}
+
+.navbar__logo-theme {
+    color: var(--theme_palette-header);
+    text-decoration: none;
+    display: block;
+}
+
+.nabar__search-small {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
-    padding: 0 48px;
-    position: relative;
+    margin: auto;
+    width: 300px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 7px 0;
 }
 
-.navbar__logo {
-    color: #fff;
+.nabar__search-small:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px var(--theme_palette-deco);
+}
+
+.nabar__search-small span {
+    padding: 0 18px;
+    font-size: 1.6rem;
 }
 
 .navbar__list-menu {
     display: flex;
     list-style: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    justify-content: center;
 }
 
 .navbar__list-menu-link {
@@ -84,6 +119,7 @@
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .navbar__list-setting-item:last-child {
@@ -92,16 +128,11 @@
 
 .navbar__list-setting-link{
     text-decoration: none;
-    color: var(--text-color-white);
     font-size: 1.6rem;
     display: block;
     font-weight: 500;
     padding: 12px;
     border-radius: 50px;
-}
-
-.navbar__list-setting-link:hover {
-    background-color: var(--theme_palette-hover);
 }
 
 .navbar__search {
@@ -199,8 +230,6 @@
 
 .navbar__search-btn {
     display: flex;
-    height: 48px;
-    width: 48px;
     border-radius: 50%;
     background-color: var(--theme_palette-header);
     margin-right: 9px;
@@ -214,6 +243,10 @@
     font-size: 1.6rem;
     margin: auto;
     color: var(--text-color-white);
+}
+
+.header__wrap-img {
+    padding-top: 80px;
 }
 
 .header__img {

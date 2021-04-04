@@ -25,6 +25,10 @@
     margin-right: -4px;
 }
 
+.row.align-center {
+    align-items: center;
+}
+
 .row.no-gutters {
     margin-left: 0;
     margin-right: 0;
