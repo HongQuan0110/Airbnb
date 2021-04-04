@@ -23,6 +23,7 @@ html {
     --theme_palette-faint: #f7f7f7;
     --theme_palette-white: #fff;
     --theme_palette-header: #FF385C ;
+    --theme_palette-hover: #262626;
 }
 
 .user-login {
@@ -52,6 +53,7 @@ html {
 .input-text {
     outline: none;
     border: none;
+    font-size: 1.4rem;
 }
 
 /* Content */
