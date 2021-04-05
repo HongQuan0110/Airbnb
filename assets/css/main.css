@@ -334,7 +334,9 @@
 .content__become-owner {
     margin-top: 64px;
     background-image: url('../images/become-home.webp');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 482px;
     border-radius: 15px;
 }
@@ -393,6 +395,7 @@
     display: inline-block;
     text-decoration: none;
     font-size: 1.4rem;
+    line-height: 1.6;
     color: var(--text-color-hof);
     padding: 10px 0;
     cursor: default;
@@ -475,4 +478,9 @@
 .footer__copyright-media-icon i {
     font-size: 2rem;
     margin-left: 20px;
+}
+
+.footer__copyright-media-icon i:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
